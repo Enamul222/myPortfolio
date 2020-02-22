@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    padding-bottom: 30px;
+}
+
+#banner {
+    width: 1170px;
+    background-image: url(images/bg/1.jpg);
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    /* padding: 200px 0px; */
+}
+
+.overlay {
+    background: rgba(10,10,50,.4);
+}
+
+/* banner section */
+
+.banner_top {
+    padding: 200px 10px;
+    line-height: 31px;
+    padding-top: 79px;
+}
+
+.banner_top h2 {
+    font-family: Tomorrow;
+    letter-spacing: 7px;
+    font-size: 28px;
+}
+
+.banner_name{}
+
+.banner_top p {
+    padding-left: 68px;
+    color: white;
+}
+.banner_name_heighlight {
+    letter-spacing: 10px;
+    padding-left: 10px;
+    color: #179DDC;
+}
+
+
+
+/* color section */
+
+#color {
+    width: 1170px;
+    padding: 32px 0px;
+    margin: 0 auto;
+    background: linear-gradient(to right, yellow, orange);
+}
+
+/* profile image section */
+
+#ProfileImage{}
+
+.pimg {
+    position: relative;
+    top: -118px;
+    width: 210px;
+    left: 44%;
+}
+
+.pimg img {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient(to right, orange, yellow);
+    border: 5px solid white;
+    box-shadow: 3px 4px 15px 4px orange;
+}
+
+/* skills */
+
+#skills {
+    margin-top: -214px;
+    overflow: hidden;
+}
+
+/* myid section */
+
+.myId {
+    width: 29%;
+    float: left;
+    background: #F7F7F7;
+    padding-bottom: 34px;
+}
+
+.myidTop {
+    padding: 52px 3px 0px 10px;
+}
+
+.myidTop h1 {
+    font-size: 26px;
+    font-family: tomorrow;
+    padding-bottom: 15px;
+}
+
+.myidTop h3 {
+    padding-bottom: 15px;
+}
+
+.myidTop p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.idcolor {
+    color: #179DDC;
+}
+
+/* myInfo */
+.myInfo {
+    float: left;
+    padding-left: 10px;
+    background: #F1F1F1;
+}
+.myinfotop{}
+
+.myinfotop h1{
+
+   font-family: tomorrow;
+}
+
+.personalinfo {
+    padding-top: 18px;
+}
+
+.personalinfo tr {
+    font-size: 21px;
+    line-height: 37px;
+}
+
+.personalinfo tr td {
+    padding-right: 31px;
+}
+
+.mySkills {
+    background: #F7F7F7;
+}
+
+.mySkillsTop {
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.mySkillsTop ul {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.mySkillsTop ul li {
+    padding: 16px 0px;
+    line-height: 25px;
+    font-size: 19px;
+}
+
+/* resume */
+
+#Resume{}
+
+.resume_headline {
+    width: 207px;
+    border-bottom: 2px solid #179DDC;
+}
+
+.resume_container {
+    width: 29%;
+    float: left;
+    border: 1px solid #ddd;
+    margin-top: 36px;
+}
+
+.resume_header{}
+
+.headertext{}
+
+.resume_para {
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+.resume_para li {
+    padding: 17px 0px;
+}
+
+.resume_para li p{}
+
+/* Education */
+
+.education {
+    overflow: hidden;
+    float: left;
+    border: 1px solid #ddd;
+    margin-top: 36px;
+    margin-left: 10px;
+}
+.eduheading{}
+
+.edu_container {
+    padding-left: 10px;
+    padding-top: 33px;
+}
+
+.edu_container li {
+    list-style: disc;
+    padding: 15.5px 0px;
+}
+
+.edu_container li p{}
+
+/* skills */
+
+
+.knowledge {
+    overflow: hidden;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    margin-top: 36px;
+    float: left;
+    width: 35%;
+}
+
+.skillsHeader{}
+
+.skillcontainer {
+    padding-left: 10px;
+    padding-top: 31px;
+}
+
+.skillcontainer p {
+    padding: 5px 2px;
+}
+
+.skills {
+    padding: 4px;
+    width: 95%;
+    text-align: right;
+}
+
+.html {
+    width: 80%;
+    background: linear-gradient(to right, red, orange);
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.css {
+    width: 60%;
+    background: linear-gradient(to bottom, aqua, lightblue);
+    border-radius: 31px;
+}
+
+.javascript {
+    width: 10%;
+    background: linear-gradient(45deg, #139c89, #2a544eb0);
+    border-radius: 6px;
+}
+
+.bootstrap {
+    width: 5%;
+    background: linear-gradient(45deg, black, #c1b1a1);
+}
+
+.bootstrap {
+    width: 5%;
+    background: linear-gradient(45deg, black, #c1b1a1);
+}
+.ps {
+    width: 30%;
+    background: linear-gradient(45deg, #ab2828, #186161ad);
+    border-radius: 13px;
+}
+
+
+
+
+
